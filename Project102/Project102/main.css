@@ -1,0 +1,40 @@
+﻿body{
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.footer {
+    margin: 0;
+    padding: 0 0 0 5px;
+    display: inline;
+}
+
+.icon-bar{
+    width: 100%;
+    background-color:#555;
+    overflow:auto;
+}
+
+.icon-bar a{
+    float: center;
+    width: 20%;
+    padding: 0 0 10px 0;
+    transition: all 0.3s ease;
+    /*color: white*/
+}
+
+.icon-bar a hover{
+    background-color: #000;
+}
+
